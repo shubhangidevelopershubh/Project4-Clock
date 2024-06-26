@@ -1,0 +1,65 @@
+* {
+    background-color: white;
+}
+
+:placeholder-shown {
+    font-size: x-small;
+}
+
+#img {
+    padding-top: 10px;
+    border: blue;
+}
+
+#B {
+    width: 400px;
+    height: 20px;
+}
+
+#Bc {
+    width: 200px;
+    height: 20px;
+}
+
+#register {
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+}
+
+
+/* Split the screen in half */
+
+.split {
+    height: 80%;
+    width: 50%;
+    z-index: 1;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+
+/* Control the left side */
+
+.left {
+    left: 0;
+}
+
+
+/* Control the right side */
+
+.right {
+    right: 0;
+}
+
+
+/* If you want the content centered horizontally and vertically */
+
+.centered {
+    top: 100%;
+    left: 500%;
+    transform: translate(50px, 50px);
+}
+
+
+/* Style the image inside the centered container, if needed */
