@@ -1,0 +1,26 @@
+body {
+    background-color: azure;
+}
+
+input {
+    width: 150px;
+    height: 100px;
+    font-size: 75px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+}
+
+#frmCalculator {
+    margin-left: 225px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-right: 240px;
+    margin-top: 50px;
+}
