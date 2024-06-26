@@ -1,0 +1,154 @@
+body {
+    text-align: center;
+}
+
+.clock {
+    width: 500px;
+    height: 500px;
+    background: #00ffff;
+    display: inline-block;
+    border-radius: 50%;
+    border: 10px solid #000;
+    padding: 20px;
+}
+
+.sec,
+.min,
+.hour {
+    line-height: 45px;
+    position: relative;
+    transform-origin: bottom;
+}
+
+.sec {
+    height: 250px;
+    width: 5px;
+    left: 245px;
+    background: #ff0000;
+    z-index: 3;
+    animation: sec_anim 60s linear infinite;
+}
+
+.min {
+    height: 250px;
+    width: 10px;
+    left: 242.5px;
+    background: #000;
+    top: -250px;
+    z-index: 2;
+    animation: min_anim 60s linear infinite;
+}
+
+.hour {
+    height: 180px;
+    width: 14px;
+    left: 240px;
+    background: #000;
+    top: -430px;
+    z-index: 1;
+    animation: hour_anim 60s linear infinite;
+}
+
+@keyframes sec_anim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes min_anim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes hour_anim {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve {
+    font-family: Arial;
+    font-size: 3.7em;
+    position: relative;
+    color: #000;
+    text-shadow: 0 0 10px white;
+}
+
+.one {
+    top: -648px;
+    left: 123px;
+}
+
+.two {
+    top: -629px;
+    left: 192px;
+}
+
+.three {
+    top: -603px;
+    left: 228px;
+}
+
+.four {
+    top: -564px;
+    left: 203px;
+}
+
+.five {
+    top: -552px;
+    left: 116px;
+}
+
+.six {
+    top: -580px;
+}
+
+.seven {
+    top: -691px;
+    left: -116px;
+}
+
+.eight {
+    top: -840px;
+    left: -203px;
+}
+
+.nine {
+    top: -1016px;
+    left: -238px;
+}
+
+.ten {
+    top: -1181px;
+    left: -192px;
+}
+
+.eleven {
+    top: -1338px;
+    left: -123px;
+}
+
+.twelve {
+    top: -1450px;
+}
