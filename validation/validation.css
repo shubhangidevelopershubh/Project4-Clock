@@ -1,0 +1,26 @@
+body {
+    margin: 10px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: oblique;
+    background-color: azure;
+}
+
+input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 10px;
+    width: auto;
+    background-color: azure;
+}
+
+.cl-btn {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 30px;
+    width: auto;
+    background-color: lightgreen;
+}
