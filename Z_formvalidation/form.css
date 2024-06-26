@@ -1,0 +1,40 @@
+li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.main {
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 380px;
+    background: #d8f1f8;
+    border: solid silver;
+}
+
+.main h3 {
+    padding-left: 12px;
+}
+
+.txt-name {
+    height: 25px;
+    width: 250px;
+}
+
+.txt-submit {
+    margin-left: 75px;
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.txt-msg {
+    font-size: 15px;
+    margin-left: 2px;
+    color: #f00;
+}
+
+input :focus text :focus {
+    background-color: yellow;
+}

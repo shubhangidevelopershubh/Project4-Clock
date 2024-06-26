@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Z_formvalidation/form.css">
+    <script src="/Z_formvalidation/form.js"></script>
+    <title>FormValidation</title>
+</head>
+
+<body onload="document.form1.text1.focus()">
+    <center>
+        <h1>Form Field Validation Demonstration</h1>
+        <br>
+        <h2>Checking All Letters</h2>
+    </center>
+    <div class="main">
+        <h3>Enter Your Name And Click On Submit</h3>
+        <form action="" name="form1">
+            <ul>
+                <li> Code : </li>
+                <li><input type="text" name="text1" id="" class="txt.name"></li>
+
+                <li class="txt-mesg">Enter Alphabets Only</li>
+                <br>
+                <li><input type="submit" class="txt-submit" name="submit" id="a" value="Submit" onclick="chkAllLetter(document.form1.text1);"></li>
+                <br>
+
+            </ul>
+    </div>
+</body>
+
+</html>
