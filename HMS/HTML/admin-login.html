@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/HMS/CSS/admin-login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/HMS/JS/admin-login.js"></script>
+    <title>Admin Login</title>
+</head>
+
+<body>
+    <form id="adminLogin" action="../HTML/success.html" method="post">
+        <br>
+        <h1>ADMIN ACCESS CODE</h1>
+        <div>
+            <label for="" class="txt-input">Admin Access Code</label>
+            <input id="txtAccess" type="text" placeholder="Enter Access Code" class="txt-input" required>
+            <br>
+            <input type="submit" id="btnAccess" value="Access" class="btn1" onclick="fieldCheck()">
+            <input type="submit" id="btnReset" value="Reset" class="btn2" onclick="fieldClear()">
+
+        </div>
+    </form>
+</body>
+
+</html>
